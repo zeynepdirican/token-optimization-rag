@@ -1,0 +1,841 @@
+question,method,reference,answer,contexts,input_tokens,output_tokens,total_tokens,time_seconds,correctness,faithfulness,context_precision,context_recall,correct_abstention
+How often is equipment maintained?,Baseline,Shared equipment receives preventive maintenance once per month.,Equipment is maintained once per month.,"[handbook.md] ### Q4: How frequently is equipment maintained?
+
+Shared laboratory equipment receives preventive
+maintenance once per month.
+
+[handbook.md] ### 3.3 Preventive Maintenance
+
+Shared equipment undergoes scheduled preventive
+maintenance once per month.
+
+Maintenance records must include:
+
+- Equipment identifier
+- Maintenance date
+- Work performed
+- Responsible technician
+- Observed issues
+
+---
+
+## 4. IT Support
+
+[handbook.md] ### Q2: What should I do if equipment stops working?
+
+Stop the equipment safely, record error messages,
+notify the equipment supervisor, and submit a
+maintenance ticket.
+
+[handbook.md] ### 3.2 Equipment Malfunctions
+
+If laboratory equipment stops functioning:
+
+1. Stop operating the equipment.
+2. Place the equipment in a safe state.
+3. Record any visible error messages.
+4. Notify the equipment supervisor.
+5. Submit a maintenance ticket.
+6. Do not restart the equipment until authorized.
+
+The equipment supervisor determines whether the
+equipment can safely return to service.
+
+[handbook.md] ### 8.2 Equipment Support
+
+For laboratory equipment problems, researchers
+must contact the equipment supervisor.",272,8,280,2.12,0.67,1.0,1.0,1.0,
+How often is equipment maintained?,Optimized,Shared equipment receives preventive maintenance once per month.,Equipment is maintained once per month.,"[handbook.md] ### Q4: How frequently is equipment maintained?
+
+[handbook.md] Shared equipment undergoes scheduled preventive
+maintenance once per month.
+
+[handbook.md] Shared laboratory equipment receives preventive
+maintenance once per month.
+
+[handbook.md] The equipment supervisor determines whether the
+equipment can safely return to service.
+
+[handbook.md] - Equipment identifier
+- Maintenance date
+- Work performed
+- Responsible technician
+- Observed issues
+
+[handbook.md] Stop the equipment safely, record error messages,
+notify the equipment supervisor, and submit a
+maintenance ticket.
+
+[handbook.md] 1. Stop operating the equipment.
+2. Place the equipment in a safe state.
+3. Record any visible error messages.
+4. Notify the equipment supervisor.
+5. Submit a maintenance ticket.
+6. Do not restart the equipment until authorized.
+
+[handbook.md] ### Q2: What should I do if equipment stops working?
+
+[handbook.md] If laboratory equipment stops functioning:
+
+[handbook.md] ### 3.2 Equipment Malfunctions",255,8,263,0.62,0.67,1.0,1.0,1.0,
+How long do laboratory access requests take?,Baseline,Access requests are normally processed within three working days.,Laboratory access requests are normally processed within three working days.,"[handbook.md] ### 1.1 General Access Requirements
+
+All researchers must complete mandatory laboratory safety
+training before receiving access to laboratory facilities.
+
+To request access:
+
+1. Complete the laboratory safety training.
+2. Submit an access request through the internal portal.
+3. Obtain approval from the laboratory supervisor.
+4. Activate your employee access card.
+5. Follow all laboratory entry procedures.
+
+Access requests are normally processed within three
+working days.
+
+[handbook.md] ### Q1: How do I request laboratory access?
+
+Complete safety training, submit an access request
+through the internal portal, and obtain supervisor approval.
+
+[handbook.md] ### 11.1 Authorization Requirements
+
+Researchers may operate specialized laboratory equipment independently only after completing all required authorization steps.
+
+These requirements include:
+
+1. Completing general laboratory safety training.
+2. Completing equipment-specific training.
+3. Receiving approval from the equipment supervisor.
+4. Confirming that their laboratory access card is active.
+5. Verifying that the equipment is available and not under maintenance.
+
+Completing general laboratory safety training does not automatically grant authorization to operate specialized equipment.
+
+Equipment-specific authorization must be recorded in the laboratory training system.
+
+[handbook.md] ### 6.1 Starting an Experiment
+
+Before starting an experiment:
+
+1. Confirm that laboratory access is valid.
+2. Verify equipment availability.
+3. Review the experiment procedure.
+4. Check equipment calibration status.
+5. Wear the required protective equipment.
+6. Record the experiment start time.
+
+[handbook.md] ### 3.1 Equipment Reservations
+
+Researchers must reserve shared laboratory equipment
+before use.
+
+Reservations are made through the Equipment Booking Portal.
+
+Each reservation must include:
+
+- Researcher name
+- Equipment identifier
+- Date and expected duration
+- Experiment description",400,13,413,0.76,0.0,1.0,1.0,1.0,
+How long do laboratory access requests take?,Optimized,Access requests are normally processed within three working days.,Laboratory access requests are normally processed within three working days.,"[handbook.md] ### Q1: How do I request laboratory access?
+
+[handbook.md] Access requests are normally processed within three
+working days.
+
+[handbook.md] 1. Confirm that laboratory access is valid.
+2. Verify equipment availability.
+3. Review the experiment procedure.
+4. Check equipment calibration status.
+5. Wear the required protective equipment.
+6. Record the experiment start time.
+
+[handbook.md] 1. Complete the laboratory safety training.
+2. Submit an access request through the internal portal.
+3. Obtain approval from the laboratory supervisor.
+4. Activate your employee access card.
+5. Follow all laboratory entry procedures.
+
+[handbook.md] To request access:
+
+[handbook.md] 1. Completing general laboratory safety training.
+2. Completing equipment-specific training.
+3. Receiving approval from the equipment supervisor.
+4. Confirming that their laboratory access card is active.
+5. Verifying that the equipment is available and not under maintenance.
+
+[handbook.md] These requirements include:",250,13,263,1.14,0.0,1.0,0.5,1.0,
+Where should confidential research data be stored?,Baseline,"Confidential data must be stored in approved institutional storage systems, not personal cloud accounts.",Confidential research data should be stored in approved institutional storage systems.,"[handbook.md] ### 12.1 Data Classification
+
+Research data is categorized into three classifications:
+
+- Public: Information approved for external distribution.
+- Internal: Information intended for authorized institutional employees.
+- Confidential: Sensitive research information restricted to authorized project members.
+
+Confidential research data must be stored in approved institutional storage systems.
+
+Personal cloud storage services are not permitted for confidential research data.
+
+[handbook.md] ### 5.1 Research Data Storage
+
+Research data must be saved in approved institutional
+storage systems.
+
+Researchers must not store confidential research
+data in personal cloud accounts.
+
+[handbook.md] ### Q5: Where should research data be stored?
+
+Research data must be stored in approved institutional
+storage systems.
+
+[handbook.md] ### 5.2 Backups
+
+Research data stored on approved project drives
+is backed up daily.
+
+Researchers are responsible for verifying that
+critical experiment files are saved correctly.
+
+[handbook.md] ### 5.3 Data Sharing
+
+Confidential project information may only be shared
+with authorized project members.
+
+External data sharing requires approval from
+the project supervisor.
+
+---
+
+## 6. Experiment Procedures",272,14,286,0.61,0.67,1.0,1.0,1.0,
+Where should confidential research data be stored?,Optimized,"Confidential data must be stored in approved institutional storage systems, not personal cloud accounts.",Confidential research data should be stored in approved institutional storage systems.,"[handbook.md] Confidential research data must be stored in approved institutional storage systems.
+
+[handbook.md] ### Q5: Where should research data be stored?
+
+[handbook.md] Researchers must not store confidential research
+data in personal cloud accounts.
+
+[handbook.md] Research data must be stored in approved institutional
+storage systems.
+
+[handbook.md] Personal cloud storage services are not permitted for confidential research data.
+
+[handbook.md] ### 5.1 Research Data Storage
+
+[handbook.md] Research data must be saved in approved institutional
+storage systems.
+
+[handbook.md] - Public: Information approved for external distribution.
+- Internal: Information intended for authorized institutional employees.
+- Confidential: Sensitive research information restricted to authorized project members.
+
+[handbook.md] Research data stored on approved project drives
+is backed up daily.
+
+[handbook.md] Confidential project information may only be shared
+with authorized project members.
+
+[handbook.md] Research data is categorized into three classifications:
+
+[handbook.md] ---",249,14,263,1.0,0.67,1.0,0.766,1.0,
+Can researchers share their passwords?,Baseline,No. Passwords must never be shared with colleagues.,"No, researchers must never share their passwords with colleagues.","[handbook.md] ### 4.2 Password Problems
+
+If a researcher forgets their password, they must
+use the approved password reset system.
+
+Passwords must never be shared with colleagues.
+
+[handbook.md] ### 12.2 External Collaboration
+
+Researchers who wish to share confidential project data with an external collaborator must obtain approval from the project supervisor before sharing.
+
+The collaborator must also have the necessary authorization to access the information.
+
+Project supervisor approval alone does not remove the requirement for appropriate recipient authorization.
+
+[handbook.md] ### 5.1 Research Data Storage
+
+Research data must be saved in approved institutional
+storage systems.
+
+Researchers must not store confidential research
+data in personal cloud accounts.
+
+[handbook.md] ### 1.1 General Access Requirements
+
+All researchers must complete mandatory laboratory safety
+training before receiving access to laboratory facilities.
+
+To request access:
+
+1. Complete the laboratory safety training.
+2. Submit an access request through the internal portal.
+3. Obtain approval from the laboratory supervisor.
+4. Activate your employee access card.
+5. Follow all laboratory entry procedures.
+
+Access requests are normally processed within three
+working days.
+
+[handbook.md] ### 5.3 Data Sharing
+
+Confidential project information may only be shared
+with authorized project members.
+
+External data sharing requires approval from
+the project supervisor.
+
+---
+
+## 6. Experiment Procedures",316,12,328,0.52,0.0,1.0,0.804,1.0,
+Can researchers share their passwords?,Optimized,No. Passwords must never be shared with colleagues.,"No, researchers must never share their passwords with colleagues.","[handbook.md] If a researcher forgets their password, they must
+use the approved password reset system.
+
+[handbook.md] Passwords must never be shared with colleagues.
+
+[handbook.md] Researchers who wish to share confidential project data with an external collaborator must obtain approval from the project supervisor before sharing.
+
+[handbook.md] Researchers must not store confidential research
+data in personal cloud accounts.
+
+[handbook.md] The collaborator must also have the necessary authorization to access the information.
+
+[handbook.md] All researchers must complete mandatory laboratory safety
+training before receiving access to laboratory facilities.
+
+[handbook.md] Confidential project information may only be shared
+with authorized project members.
+
+[handbook.md] Research data must be saved in approved institutional
+storage systems.
+
+[handbook.md] External data sharing requires approval from
+the project supervisor.
+
+[handbook.md] ### 5.3 Data Sharing
+
+[handbook.md] ### 5.1 Research Data Storage
+
+[handbook.md] ### 4.2 Password Problems",252,12,264,0.86,0.0,1.0,0.81,1.0,
+Who approves equipment returning to service?,Baseline,The equipment supervisor authorizes equipment to return to service.,The equipment supervisor determines whether the equipment can safely return to service.,"[handbook.md] ### 11.3 Authorization Suspension
+
+Equipment authorization may be temporarily suspended following a safety incident, repeated procedure violations, or an expired training certification.
+
+A researcher with suspended authorization must not independently operate the affected equipment until the equipment supervisor confirms that authorization has been restored.
+
+---
+
+## 12. Research Data Handling and Retention
+
+[handbook.md] ### 3.2 Equipment Malfunctions
+
+If laboratory equipment stops functioning:
+
+1. Stop operating the equipment.
+2. Place the equipment in a safe state.
+3. Record any visible error messages.
+4. Notify the equipment supervisor.
+5. Submit a maintenance ticket.
+6. Do not restart the equipment until authorized.
+
+The equipment supervisor determines whether the
+equipment can safely return to service.
+
+[handbook.md] ### Q2: What should I do if equipment stops working?
+
+Stop the equipment safely, record error messages,
+notify the equipment supervisor, and submit a
+maintenance ticket.
+
+[handbook.md] ### 8.2 Equipment Support
+
+For laboratory equipment problems, researchers
+must contact the equipment supervisor.
+
+[handbook.md] ### 11.1 Authorization Requirements
+
+Researchers may operate specialized laboratory equipment independently only after completing all required authorization steps.
+
+These requirements include:
+
+1. Completing general laboratory safety training.
+2. Completing equipment-specific training.
+3. Receiving approval from the equipment supervisor.
+4. Confirming that their laboratory access card is active.
+5. Verifying that the equipment is available and not under maintenance.
+
+Completing general laboratory safety training does not automatically grant authorization to operate specialized equipment.
+
+Equipment-specific authorization must be recorded in the laboratory training system.",372,14,386,0.82,0.0,1.0,0.917,1.0,
+Who approves equipment returning to service?,Optimized,The equipment supervisor authorizes equipment to return to service.,The equipment supervisor determines whether the equipment can safely return to service.,"[handbook.md] The equipment supervisor determines whether the
+equipment can safely return to service.
+
+[handbook.md] Equipment authorization may be temporarily suspended following a safety incident, repeated procedure violations, or an expired training certification.
+
+[handbook.md] A researcher with suspended authorization must not independently operate the affected equipment until the equipment supervisor confirms that authorization has been restored.
+
+[handbook.md] 1. Stop operating the equipment.
+2. Place the equipment in a safe state.
+3. Record any visible error messages.
+4. Notify the equipment supervisor.
+5. Submit a maintenance ticket.
+6. Do not restart the equipment until authorized.
+
+[handbook.md] ### 8.2 Equipment Support
+
+[handbook.md] Stop the equipment safely, record error messages,
+notify the equipment supervisor, and submit a
+maintenance ticket.
+
+[handbook.md] ### Q2: What should I do if equipment stops working?
+
+[handbook.md] ### 3.2 Equipment Malfunctions
+
+[handbook.md] ### 11.3 Authorization Suspension",252,14,266,1.09,0.0,1.0,0.806,1.0,
+What is required before operating specialized equipment?,Baseline,"Researchers need general safety training, equipment-specific training, supervisor approval, an active access card, and confirmation that equipment is available and not under maintenance. Authorization must be recorded.","Before operating specialized equipment, researchers must:
+
+1. Complete general laboratory safety training.  
+2. Complete equipment-specific training.  
+3. Receive approval from the equipment supervisor.  
+4. Confirm that their laboratory access card is active.  
+5. Verify that the equipment is available and not under maintenance.  
+
+Additionally, equipment-specific training completion must be documented.","[handbook.md] ### 11.1 Authorization Requirements
+
+Researchers may operate specialized laboratory equipment independently only after completing all required authorization steps.
+
+These requirements include:
+
+1. Completing general laboratory safety training.
+2. Completing equipment-specific training.
+3. Receiving approval from the equipment supervisor.
+4. Confirming that their laboratory access card is active.
+5. Verifying that the equipment is available and not under maintenance.
+
+Completing general laboratory safety training does not automatically grant authorization to operate specialized equipment.
+
+Equipment-specific authorization must be recorded in the laboratory training system.
+
+[handbook.md] ### 3.1 Equipment Reservations
+
+Researchers must reserve shared laboratory equipment
+before use.
+
+Reservations are made through the Equipment Booking Portal.
+
+Each reservation must include:
+
+- Researcher name
+- Equipment identifier
+- Date and expected duration
+- Experiment description
+
+[handbook.md] ### 3.2 Equipment Malfunctions
+
+If laboratory equipment stops functioning:
+
+1. Stop operating the equipment.
+2. Place the equipment in a safe state.
+3. Record any visible error messages.
+4. Notify the equipment supervisor.
+5. Submit a maintenance ticket.
+6. Do not restart the equipment until authorized.
+
+The equipment supervisor determines whether the
+equipment can safely return to service.
+
+[handbook.md] ### 7.2 Training
+
+Researchers must complete equipment-specific training
+before independently operating specialized laboratory tools.
+
+Training completion must be documented.
+
+---
+
+## 8. Support and Escalation
+
+[handbook.md] ### 2.1 Personal Protective Equipment
+
+Researchers must wear the required protective equipment
+when working in designated laboratory areas.
+
+Depending on the activity, this may include:
+
+- Laboratory coat
+- Safety glasses
+- Protective gloves
+- Closed-toe shoes
+- Additional equipment required by the experiment",402,72,474,2.29,0.73,1.0,1.0,1.0,
+What is required before operating specialized equipment?,Optimized,"Researchers need general safety training, equipment-specific training, supervisor approval, an active access card, and confirmation that equipment is available and not under maintenance. Authorization must be recorded.","Before operating specialized equipment, researchers must complete general laboratory safety training, complete equipment-specific training, receive approval from the equipment supervisor, confirm that their laboratory access card is active, verify that the equipment is available and not under maintenance, and have equipment-specific authorization recorded in the laboratory training system. Additionally, researchers must wear the required protective equipment and reserve shared laboratory equipment before use.","[handbook.md] Researchers must complete equipment-specific training
+before independently operating specialized laboratory tools.
+
+[handbook.md] 1. Completing general laboratory safety training.
+2. Completing equipment-specific training.
+3. Receiving approval from the equipment supervisor.
+4. Confirming that their laboratory access card is active.
+5. Verifying that the equipment is available and not under maintenance.
+
+[handbook.md] Researchers may operate specialized laboratory equipment independently only after completing all required authorization steps.
+
+[handbook.md] The equipment supervisor determines whether the
+equipment can safely return to service.
+
+[handbook.md] Completing general laboratory safety training does not automatically grant authorization to operate specialized equipment.
+
+[handbook.md] These requirements include:
+
+[handbook.md] Equipment-specific authorization must be recorded in the laboratory training system.
+
+[handbook.md] Researchers must wear the required protective equipment
+when working in designated laboratory areas.
+
+[handbook.md] Researchers must reserve shared laboratory equipment
+before use.
+
+[handbook.md] ### 7.2 Training",251,75,326,2.82,0.77,0.875,0.417,1.0,
+What should a researcher do if equipment malfunctions during an experiment?,Baseline,"Stop safely, secure equipment, record errors, preserve logs, notify both supervisors, submit a maintenance ticket, and document the incident. Restart only after authorization. Before resuming, verify availability, calibration and safety.","If equipment malfunctions during an experiment, the researcher should:
+
+1. Stop the experiment immediately if safe.  
+2. Place the equipment in a safe state.  
+3. Record any visible error messages.  
+4. Preserve relevant experiment logs and measurements.  
+5. Notify the equipment supervisor.  
+6. Notify the project supervisor about the experiment failure.  
+7. Submit a maintenance ticket.  
+8. Document the incident in the experiment record.  
+
+The researcher must not restart the equipment until the equipment supervisor authorizes its return to service. The experiment may only resume after equipment availability, calibration status, and required safety conditions have been verified.","[handbook.md] ### 13.1 Equipment Failure During an Experiment
+
+If specialized equipment malfunctions during an active experiment, the researcher must:
+
+1. Stop the experiment immediately if safe.
+2. Place the equipment in a safe state.
+3. Record visible error messages.
+4. Preserve relevant experiment logs and measurements.
+5. Notify the equipment supervisor.
+6. Notify the project supervisor about the experiment failure.
+7. Submit a maintenance ticket.
+8. Document the incident in the experiment record.
+
+The researcher must not restart the equipment until the equipment supervisor authorizes its return to service.
+
+The experiment may only resume after equipment availability, calibration status, and required safety conditions have been verified.
+
+[handbook.md] ### 3.2 Equipment Malfunctions
+
+If laboratory equipment stops functioning:
+
+1. Stop operating the equipment.
+2. Place the equipment in a safe state.
+3. Record any visible error messages.
+4. Notify the equipment supervisor.
+5. Submit a maintenance ticket.
+6. Do not restart the equipment until authorized.
+
+The equipment supervisor determines whether the
+equipment can safely return to service.
+
+[handbook.md] ### Q6: What should I do when an experiment fails?
+
+Stop safely, document the failure, preserve logs,
+notify the project supervisor, and investigate
+possible causes.
+
+[handbook.md] ### 6.2 Experiment Failure
+
+If an experiment fails:
+
+1. Stop the experiment safely.
+2. Record the observed failure.
+3. Save relevant logs and measurements.
+4. Notify the project supervisor.
+5. Review possible causes.
+6. Document the corrective action.
+
+Repeated failures must be escalated to the
+research team lead.
+
+[handbook.md] ### 8.2 Equipment Support
+
+For laboratory equipment problems, researchers
+must contact the equipment supervisor.",404,130,534,3.76,0.82,1.0,0.917,1.0,
+What should a researcher do if equipment malfunctions during an experiment?,Optimized,"Stop safely, secure equipment, record errors, preserve logs, notify both supervisors, submit a maintenance ticket, and document the incident. Restart only after authorization. Before resuming, verify availability, calibration and safety.","If specialized equipment malfunctions during an active experiment, the researcher must:
+1. Stop the experiment immediately if safe.
+2. Place the equipment in a safe state.
+3. Record visible error messages.
+4. Preserve relevant experiment logs and measurements.
+5. Notify the equipment supervisor.
+6. Notify the project supervisor about the experiment failure.
+7. Submit a maintenance ticket.
+8. Document the incident in the experiment record.
+The researcher must not restart the equipment until the equipment supervisor authorizes its return to service.","[handbook.md] If specialized equipment malfunctions during an active experiment, the researcher must:
+
+[handbook.md] ### 13.1 Equipment Failure During an Experiment
+
+[handbook.md] 1. Stop the experiment immediately if safe.
+2. Place the equipment in a safe state.
+3. Record visible error messages.
+4. Preserve relevant experiment logs and measurements.
+5. Notify the equipment supervisor.
+6. Notify the project supervisor about the experiment failure.
+7. Submit a maintenance ticket.
+8. Document the incident in the experiment record.
+
+[handbook.md] If laboratory equipment stops functioning:
+
+[handbook.md] The researcher must not restart the equipment until the equipment supervisor authorizes its return to service.
+
+[handbook.md] ### Q6: What should I do when an experiment fails?
+
+[handbook.md] For laboratory equipment problems, researchers
+must contact the equipment supervisor.
+
+[handbook.md] If an experiment fails:
+
+[handbook.md] ### 3.2 Equipment Malfunctions
+
+[handbook.md] ### 6.2 Experiment Failure",264,103,367,3.32,0.59,1.0,0.844,1.0,
+Can reserved equipment be used during maintenance?,Baseline,No. Maintenance restrictions take priority over equipment reservations.,I don't know.,"[handbook.md] ### 3.1 Equipment Reservations
+
+Researchers must reserve shared laboratory equipment
+before use.
+
+Reservations are made through the Equipment Booking Portal.
+
+Each reservation must include:
+
+- Researcher name
+- Equipment identifier
+- Date and expected duration
+- Experiment description
+
+[handbook.md] ### 3.3 Preventive Maintenance
+
+Shared equipment undergoes scheduled preventive
+maintenance once per month.
+
+Maintenance records must include:
+
+- Equipment identifier
+- Maintenance date
+- Work performed
+- Responsible technician
+- Observed issues
+
+---
+
+## 4. IT Support
+
+[handbook.md] ### Q4: How frequently is equipment maintained?
+
+Shared laboratory equipment receives preventive
+maintenance once per month.
+
+[handbook.md] ### Q2: What should I do if equipment stops working?
+
+Stop the equipment safely, record error messages,
+notify the equipment supervisor, and submit a
+maintenance ticket.
+
+[handbook.md] ### 3.2 Equipment Malfunctions
+
+If laboratory equipment stops functioning:
+
+1. Stop operating the equipment.
+2. Place the equipment in a safe state.
+3. Record any visible error messages.
+4. Notify the equipment supervisor.
+5. Submit a maintenance ticket.
+6. Do not restart the equipment until authorized.
+
+The equipment supervisor determines whether the
+equipment can safely return to service.",306,6,312,0.67,0.0,0.0,0.0,0.0,
+Can reserved equipment be used during maintenance?,Optimized,No. Maintenance restrictions take priority over equipment reservations.,"No, reserved equipment cannot be used during maintenance. The context states that shared equipment undergoes scheduled preventive maintenance once per month, and reservations are made through the Equipment Booking Portal. This implies that during maintenance, the equipment is not available for use. Additionally, the process requires stopping the equipment and notifying the supervisor, which further confirms that usage is halted during maintenance.","[handbook.md] ### Q4: How frequently is equipment maintained?
+
+[handbook.md] 1. Stop operating the equipment.
+2. Place the equipment in a safe state.
+3. Record any visible error messages.
+4. Notify the equipment supervisor.
+5. Submit a maintenance ticket.
+6. Do not restart the equipment until authorized.
+
+[handbook.md] ### 3.1 Equipment Reservations
+
+[handbook.md] The equipment supervisor determines whether the
+equipment can safely return to service.
+
+[handbook.md] Shared equipment undergoes scheduled preventive
+maintenance once per month.
+
+[handbook.md] Reservations are made through the Equipment Booking Portal.
+
+[handbook.md] - Equipment identifier
+- Maintenance date
+- Work performed
+- Responsible technician
+- Observed issues
+
+[handbook.md] Stop the equipment safely, record error messages,
+notify the equipment supervisor, and submit a
+maintenance ticket.
+
+[handbook.md] ### Q2: What should I do if equipment stops working?
+
+[handbook.md] Maintenance records must include:
+
+[handbook.md] ---",262,73,335,2.46,0.44,0.667,0.0,0.0,
+How long must experiment records be retained?,Baseline,At least five years after project completion.,Experiment records must be retained for at least five years after project completion.,"[handbook.md] ### 12.3 Data Retention
+
+Experiment records must be retained for at least five years after project completion.
+
+Temporary intermediate files may be deleted when they are no longer required, provided that the final experiment record remains complete.
+
+Critical experiment measurements and logs must be preserved when investigating a failed experiment.
+
+[handbook.md] ### 6.3 Experiment Documentation
+
+Every experiment must have a digital record containing:
+
+- Experiment identifier
+- Researcher name
+- Date
+- Equipment used
+- Experimental parameters
+- Results
+- Observed issues
+
+---
+
+## 7. Researcher Onboarding
+
+[handbook.md] ### 13.1 Equipment Failure During an Experiment
+
+If specialized equipment malfunctions during an active experiment, the researcher must:
+
+1. Stop the experiment immediately if safe.
+2. Place the equipment in a safe state.
+3. Record visible error messages.
+4. Preserve relevant experiment logs and measurements.
+5. Notify the equipment supervisor.
+6. Notify the project supervisor about the experiment failure.
+7. Submit a maintenance ticket.
+8. Document the incident in the experiment record.
+
+The researcher must not restart the equipment until the equipment supervisor authorizes its return to service.
+
+The experiment may only resume after equipment availability, calibration status, and required safety conditions have been verified.
+
+[handbook.md] ### 5.2 Backups
+
+Research data stored on approved project drives
+is backed up daily.
+
+Researchers are responsible for verifying that
+critical experiment files are saved correctly.
+
+[handbook.md] ### 5.1 Research Data Storage
+
+Research data must be saved in approved institutional
+storage systems.
+
+Researchers must not store confidential research
+data in personal cloud accounts.",383,15,398,0.88,0.67,1.0,1.0,1.0,
+How long must experiment records be retained?,Optimized,At least five years after project completion.,Experiment records must be retained for at least five years after project completion.,"[handbook.md] Experiment records must be retained for at least five years after project completion.
+
+[handbook.md] Critical experiment measurements and logs must be preserved when investigating a failed experiment.
+
+[handbook.md] Every experiment must have a digital record containing:
+
+[handbook.md] Researchers are responsible for verifying that
+critical experiment files are saved correctly.
+
+[handbook.md] The experiment may only resume after equipment availability, calibration status, and required safety conditions have been verified.
+
+[handbook.md] 1. Stop the experiment immediately if safe.
+2. Place the equipment in a safe state.
+3. Record visible error messages.
+4. Preserve relevant experiment logs and measurements.
+5. Notify the equipment supervisor.
+6. Notify the project supervisor about the experiment failure.
+7. Submit a maintenance ticket.
+8. Document the incident in the experiment record.
+
+[handbook.md] Research data must be saved in approved institutional
+storage systems.",229,15,244,1.09,0.67,1.0,1.0,1.0,
+What is the annual salary of a laboratory supervisor?,Baseline,I don't know.,I don't know.,"[handbook.md] ### Q1: How do I request laboratory access?
+
+Complete safety training, submit an access request
+through the internal portal, and obtain supervisor approval.
+
+[handbook.md] ### 8.2 Equipment Support
+
+For laboratory equipment problems, researchers
+must contact the equipment supervisor.
+
+[handbook.md] # Research Laboratory Operations Handbook
+
+Version: 1.0  
+Department: Research Operations  
+Document Type: Internal Knowledge Base  
+Last Updated: November 2026
+
+> This is a fictional handbook created for an educational
+> RAG and token-optimization experiment. It does not
+> represent official imec procedures.
+
+---
+
+## 1. Laboratory Access
+
+[handbook.md] ### Q4: How frequently is equipment maintained?
+
+Shared laboratory equipment receives preventive
+maintenance once per month.
+
+[handbook.md] ### 1.1 General Access Requirements
+
+All researchers must complete mandatory laboratory safety
+training before receiving access to laboratory facilities.
+
+To request access:
+
+1. Complete the laboratory safety training.
+2. Submit an access request through the internal portal.
+3. Obtain approval from the laboratory supervisor.
+4. Activate your employee access card.
+5. Follow all laboratory entry procedures.
+
+Access requests are normally processed within three
+working days.",298,6,304,0.54,,,,,True
+What is the annual salary of a laboratory supervisor?,Optimized,I don't know.,I don't know.,"[handbook.md] For laboratory equipment problems, researchers
+must contact the equipment supervisor.
+
+[handbook.md] # Research Laboratory Operations Handbook
+
+[handbook.md] ## 1. Laboratory Access
+
+[handbook.md] 1. Complete the laboratory safety training.
+2. Submit an access request through the internal portal.
+3. Obtain approval from the laboratory supervisor.
+4. Activate your employee access card.
+5. Follow all laboratory entry procedures.
+
+[handbook.md] Shared laboratory equipment receives preventive
+maintenance once per month.
+
+[handbook.md] ### Q1: How do I request laboratory access?
+
+[handbook.md] All researchers must complete mandatory laboratory safety
+training before receiving access to laboratory facilities.
+
+[handbook.md] Complete safety training, submit an access request
+through the internal portal, and obtain supervisor approval.
+
+[handbook.md] > This is a fictional handbook created for an educational
+> RAG and token-optimization experiment. It does not
+> represent official imec procedures.
+
+[handbook.md] ---",254,6,260,0.65,,,,,True
